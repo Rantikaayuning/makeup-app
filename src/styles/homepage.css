@@ -1,0 +1,52 @@
+body {
+    background-image: url(../assests/bg2.jpg);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.makeup-card-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+.web-title {
+    text-align: center;
+    color: honeydew;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.web-title input {
+    border-radius: 20px;
+    padding: 10px 24px;
+    border: 1px solid white;
+    outline: none;
+    width: 30%;
+}
+
+.web-title-start {
+    text-align: center;
+    color: honeydew;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+}
+
+.web-title-start input {
+    border-radius: 20px;
+    padding: 15px 34px;
+    border: 1px solid white;
+    outline: none;
+    width: 40%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgb(66, 99, 99);
+    padding: 5% 0;
+}

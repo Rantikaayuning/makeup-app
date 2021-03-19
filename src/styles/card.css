@@ -1,0 +1,18 @@
+.makeup-card {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.makeup-image img {
+    width: 100%;
+}
+
+.makeup-card:hover {
+    box-shadow: 10px 10px gray;
+    cursor: pointer;
+}
